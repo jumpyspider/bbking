@@ -1,5 +1,82 @@
+/*-------------------------------------------colors*/
+
+.bg-color-name-title{
+    background-color: #191970;
+}
+
+.bg-color-about{
+    background-color: #191970;
+}
+
+.bg-color-history{
+    background-color: #191970;
+}
+
+.bg-color-music{
+    background: #191970;
+}
+
+.bg-color-live{
+    background-color: #191970;
+}
+
+
+.ui-menu-color-about{
+    background-color: #191970;
+}
+
+.ui-menu-color-history{
+    background-color: #191970;
+}
+
+.ui-menu-color-music{
+    background-color: #191970;
+}
+
+.ui-menu-color-live{
+    background-color: #191970;
+}
+
+/*-------------------------------------------Special Paddings/Margins/Text*/
+
+h1,h2,h3,h4 {
+    margin: 0;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.general-sub{
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.inline-block{
+    display: inline-block;
+    
+}
+
+
+.row-table{
+    display: table;
+}
+
+.history-heading,
+.section-heading{
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
 /*-------------------------------------------heading*/
 
+header{
+    margin: 0;
+    
+}
 
 .heading {
     margin-left: 50px;
@@ -7,10 +84,10 @@
 
 .logo{
     background: url("../images/bbking-header.jpg");
-    background-position: left;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 350px;
+    min-height: 270px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -25,14 +102,18 @@
     color: #ffffff;
 }
 
+.title {
+    font-family: "roboto", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
 #nav{
     margin: 0;
 }
-
-#nav li{
-    padding: 0;
-}
-
 
 .menuitem{
     height: 100px;
@@ -42,6 +123,7 @@
 
 .menuitem a{
     width: 100%;
+    height: 100%;
     text-decoration: none;
     color: #ffffff;
 }
@@ -66,16 +148,19 @@
 
 /*-------------------------------------------hover.css*/
 
-.hvr-sweep-to-bottom:before{
-    background: rgba(0,0,0, 0.2);
-    height: 100px;
+.hvr-underline-from-center:hover {
+    background-color: #191970;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 /*-------------------------------------------footer*/
 
 
 .footer-container {
-    background-color: #00008B;
+    background-color: #191970;
 }
 
 
@@ -111,7 +196,7 @@
     font-size: 2rem;
     line-height: 23px;
     text-align: center;
-    color: #00008B;
+    color: #191970;
     position: relative;
     background-color: #FFFAF0;
     transition: all 0.35s ease-in-out;
@@ -121,13 +206,78 @@
 }
 
 .footer-social .social-links li a i:hover {
-    background: #87CEFA;
+    background: #191970;
     color: #fafafa;
 }
 
 .footer-copyright {
     padding: 10px 10px;
     margin: 0;
-    background-color: #00008b;
+    background-color: #191970;
     color: #FFFAF0;
 }
+
+/*-------------------------------------------About*/
+
+
+
+/*-------------------------------------------History*/
+
+.timeline-item{
+    padding:4em 2em 0em 2em;
+    position: relative;
+    color: #fafafa;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item: :before{
+    content: attr(dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: .8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item: :after{
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: ' ';
+    background: #fafafa;
+    
+}
+
+.history-heading{
+    color: #fafafa;
+    margin: 50px;
+}
+
+
+/*-------------------------------------------Music*/
+
+
+
+/*-------------------------------------------Live*/
+
+
+
+/*-------------------------------------------About*/
+
+
+
+/*-------------------------------------------Media Queries*/
+
