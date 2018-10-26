@@ -1,0 +1,133 @@
+/*-------------------------------------------heading*/
+
+
+.heading {
+    margin-left: 50px;
+}
+
+.logo{
+    background: url("../images/bbking-header.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 350px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    
+}
+
+.name {
+    font-family: "Exo", sans-serif;
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 50px;
+    color: #ffffff;
+}
+
+#nav{
+    margin: 0;
+}
+
+#nav li{
+    padding: 0;
+}
+
+
+.menuitem{
+    height: 100px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a{
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menuitem a i{
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+
+.menuitem span{
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: Uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+/*-------------------------------------------hover.css*/
+
+.hvr-sweep-to-bottom:before{
+    background: rgba(0,0,0, 0.2);
+    height: 100px;
+}
+
+/*-------------------------------------------footer*/
+
+
+.footer-container {
+    background-color: #00008B;
+}
+
+
+.footer-social h5 {
+    padding: 20px 0;
+    color: #FFFAF0;
+}
+
+
+.footer-social div ul {
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+
+.social-links {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.footer-social .social-links li a {
+    padding: 0 10px;
+}
+
+.footer-social .social-links li a i {
+    width: 50px;
+    height: 50px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 2rem;
+    line-height: 23px;
+    text-align: center;
+    color: #00008B;
+    position: relative;
+    background-color: #FFFAF0;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.footer-social .social-links li a i:hover {
+    background: #87CEFA;
+    color: #fafafa;
+}
+
+.footer-copyright {
+    padding: 10px 10px;
+    margin: 0;
+    background-color: #00008b;
+    color: #FFFAF0;
+}
