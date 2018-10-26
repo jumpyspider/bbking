@@ -80,14 +80,15 @@ header{
 
 .heading {
     margin-left: 50px;
+    height: 200px;
 }
 
 .logo{
-    background: url("../images/bbking-header.jpg");
+    background: url("../images/bbking-b&w.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 270px;
+    min-height: 350px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -261,10 +262,6 @@ header{
     
 }
 
-.history-heading{
-    color: #fafafa;
-    margin: 50px;
-}
 
 
 /*-------------------------------------------Music*/
